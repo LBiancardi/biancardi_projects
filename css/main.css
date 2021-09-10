@@ -1,9 +1,36 @@
-body {
-    background: hsl(349, 100%, 97%);
+/* HEADER */
+
+header {
+    position: relative;
+    background: hsl(347, 100%, 95%);
+    padding: 1%;
+}
+
+.box {
+    position: relative;
+    width: 70%;
     margin: 0 auto;
 }
 
 header img {
-    width: 15%;
+    width: 12%;
     height: auto;
+}
+
+nav {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0px 0px 0px 30px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
 }
