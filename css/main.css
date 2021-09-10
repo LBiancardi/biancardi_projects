@@ -1,0 +1,9 @@
+body {
+    background: hsl(349, 100%, 97%);
+    margin: 0 auto;
+}
+
+header img {
+    width: 15%;
+    height: auto;
+}
