@@ -3,17 +3,17 @@
 header {
   position: relative;
   background: hsl(347, 100%, 95%);
-  padding: 1%;
+  padding: 10px;
 }
 
 .box {
   position: relative;
-  width: 70%;
+  width: 90%;
   margin: 15px auto;
 }
 
 header img {
-  width: 13%;
+  width: 8%;
   height: auto;
 }
 
@@ -43,14 +43,73 @@ header img {
 
 /* BODY */
 
+main {
+  background: hsl(347, 100%, 95%);
+  padding: 10px;
+}
+
 main h1 {
   padding: 30px;
   color: rgb(107, 51, 11);
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bolder;
 }
 
 main p {
   text-align: center;
+  font-size: 18px;
+}
+
+.about {
+  margin-bottom: 50px;
+}
+
+#mission {
+  font-size: 22px;
+}
+
+main strong {
+  color: chocolate;
+}
+
+.products h2 {
+  color: rgb(107, 51, 11);
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.7em;
+  margin-bottom: 50px;
+}
+
+.itens {
+  font-style: italic;
+  font-size: 1.3em;
+  margin-bottom: 60px;
+}
+
+.products {
+  background: #ffffff;
+  padding: 10px;
+  position: relative;
+  margin: 15px auto;
+}
+
+.brigadeirosimage {
+  width: 60%;
+}
+
+.products nav {
+  position: absolute;
+  right: 200px;
+}
+
+.products nav li {
+  margin: 50px 0px 0px 0px;
+}
+
+.products nav li {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(112, 38, 8);
+  text-transform: uppercase;
 }
