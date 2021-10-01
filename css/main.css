@@ -43,7 +43,10 @@ header img {
 
 /* BODY */
 
+/* ABOUT */
+
 main {
+  position: relative;
   background: hsl(347, 100%, 95%);
   padding: 10px;
 }
@@ -73,6 +76,15 @@ main strong {
   color: chocolate;
 }
 
+/* PRODUCTS */
+
+.products {
+  background: #ffffff;
+  padding: 10px;
+  position: relative;
+  margin: 15px auto;
+}
+
 .products h2 {
   color: rgb(107, 51, 11);
   margin-top: 30px;
@@ -87,24 +99,18 @@ main strong {
   margin-bottom: 60px;
 }
 
-.products {
-  background: #ffffff;
-  padding: 10px;
-  position: relative;
-  margin: 15px auto;
-}
-
 .brigadeirosimage {
   width: 60%;
 }
 
 .products nav {
   position: absolute;
-  right: 200px;
+  right: 0;
+  margin: 0 5%;
 }
 
 .products nav li {
-  margin: 50px 0px 0px 0px;
+  margin: 15% 0px 0px 0px;
 }
 
 .products nav li {
