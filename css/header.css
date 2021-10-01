@@ -1,0 +1,47 @@
+/* HEADER */
+
+header {
+  position: relative;
+  background: hsl(347, 100%, 95%);
+  padding: 10px;
+}
+
+.box {
+  position: relative;
+  width: 940px;
+  margin: 15px auto;
+}
+
+header img {
+  width: 12%;
+  height: auto;
+}
+
+.box nav {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+}
+
+.box nav li {
+  display: inline;
+  margin: 0px 0px 0px 30px;
+}
+
+.box nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(112, 38, 8);
+  text-transform: uppercase;
+}
+
+#banner {
+  display: block;
+  width: 100%;
+}
+
+nav a:hover {
+  color: chocolate;
+  text-decoration: underline;
+}
