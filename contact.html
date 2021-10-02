@@ -7,10 +7,133 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/style-contact.css" />
     <title>Contact - Sweet Sophie</title>
   </head>
   <body>
-    
+    <header>
+      <div class="box">
+        <h1>
+          <img src="/imgs/logo_sweetSophie.png" alt="Logo Sweet Sophie" />
+        </h1>
 
+        <nav>
+          <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="">Social medias</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <form action="">
+        <label for="fname">First name: </label>
+        <input type="text" id="fname" class="input-default" required />
+        <label for="lname">Last name: </label>
+        <input type="text" id="lname" class="input-default" required />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          class="input-default"
+          required
+          placeholder="email@domain.com"
+        />
+
+        <label for="phone">Phone:</label>
+        <input
+          type="tel"
+          id="phone"
+          class="input-default"
+          placeholder="(XXX) XXX-XXXX"
+        />
+
+        <label for="message">Message:</label>
+        <textarea
+          name=""
+          id="message"
+          cols="60"
+          rows="10"
+          class="input-default"
+        ></textarea>
+
+        <fieldset>
+          <legend>Preferable contact:</legend>
+          <label for="radio-email">
+            <input type="radio" name="contact" value="email" id="radio-email" />
+            Email
+          </label>
+
+          <label for="radio-phone">
+            <input type="radio" name="contact" value="phone" id="radio-phone" />
+            Phone
+          </label>
+
+          <label for="radio-whatsapp">
+            <input
+              type="radio"
+              name="contact"
+              value="whatsapp"
+              id="radio-whatsapp"
+              checked
+            />
+            Whatsapp
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Best time for contact:</legend>
+          <select name="" id="">
+            <option value="">Morning</option>
+            <option value="">Afternoon</option>
+            <option value="">Night</option>
+          </select>
+        </fieldset>
+
+        <label class="checkbox">
+          <input type="checkbox" checked /> Would like to receive news on your
+          email?
+        </label>
+
+        <input type="submit" value="Send" class="send" />
+      </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>CLOSED</td>
+          </tr>
+          <tr>
+            <td>Tue - Thu</td>
+            <td>10AM - 4PM</td>
+          </tr>
+          <tr>
+            <td>Fri - Sun</td>
+            <td>10AM - 7PM</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2">Thank you ❣ </td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+
+    <footer>
+      <img src="imgs/logo_sweetSophie.png" alt="Logo Sweet Sophie" />
+      <p class="copyright">&copy; Copyright Sweet Sophie - 2021</p>
+    </footer>
   </body>
 </html>

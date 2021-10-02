@@ -1,6 +1,7 @@
 footer {
   text-align: center;
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzZmLzP0ziOa9OdkLJtED2RpErsAxDCTUV8g&usqp=CAU");
+  /* background: url("https://wallpaperaccess.com/full/1425559.jpg"); */
+  background: hsl(347, 100%, 95%);
   padding: 40px 0;
 }
 
@@ -9,7 +10,7 @@ footer img {
 }
 
 .copyright {
-  color: rgb(112, 38, 8);;
+  color: rgb(112, 38, 8);
   font-size: 13px;
   margin-top: 20px;
 }
