@@ -45,3 +45,8 @@ nav a:hover {
   color: chocolate;
   text-decoration: underline;
 }
+
+/* BODY */
+body {
+  font-family: "Montserrat", sans-serif;
+}
