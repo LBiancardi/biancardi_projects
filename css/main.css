@@ -23,10 +23,23 @@ em {
   text-align: center;
   font-size: 2em;
   font-weight: bold;
-  color: rgb(112, 38, 8);
+  color: rgba(112, 38, 8, 1);
   margin: 1em 0;
   clear: left;
+  text-shadow: 2px 2px pink;
 }
+
+.main-title::first-letter {
+  font-weight: bold;
+}
+
+/* .main-title::before {
+  content: "[ ";
+}
+
+.main-title::after {
+  content: " ]";
+} */
 
 /* ABOUT */
 
@@ -75,6 +88,7 @@ main strong {
   border: saddlebrown solid 3px;
   border-radius: 10px;
   margin: 0 auto;
+  box-shadow: inset 0 0 75px pink;
 }
 
 .products-content {
@@ -90,70 +104,56 @@ main strong {
 
 .brigadeiros-image {
   width: 60%;
+  opacity: 100%;
+  transition: 400ms;
+  box-shadow: 10px 10px 30px 0px black;
+  /* box-shadow: 10px 10px 30px 20px black, -10px -10px yellow, -20px 20px rgba(255, 0, 0, 0.5); */
+}
+
+.brigadeiros-image:hover {
+  opacity: 80%;
 }
 
 .itens {
-  font-style: italic;
   font-size: 1.1em;
   line-height: 1.5;
 }
 
-.itens:nth-child(2n) {
+.itens:first-child {
+  font-size: 1.3em;
   font-weight: bold;
 }
+
+.itens::before {
+  content: "★ ";
+}
+
+/* .itens:nth-child(2n) {
+  font-weight: bold;
+} */
 
 .video {
   width: 560px;
   margin: 2em auto;
 }
 
-/* .products nav {
-  position: absolute;
-  right: 0;
-  margin: 0 5%;
+/* CSS ADVANCED SELECTORS */
+
+/* ">" SELECIONA APENAS FILHOS DIRETOS */
+/* main > p {
+  background-color: red;
 } */
 
-/* .products nav li {
-  margin: 15% 0px 0px 0px;
+/* SELECIONA PROXIMO IRMAO */
+/* img + p {
+  background: blue;
 } */
 
-/* .products nav li {
-  font-weight: bold;
-  font-size: 20px;
-  color: rgb(112, 38, 8);
-  text-transform: uppercase;
+/* img ~ p {
+  background: chartreuse;
 } */
 
-/* ALURA TEMPLATE css da página inicial */
-/* .banner {
-  width:100%;
-}
-
-.titulo-principal {
-  text-align: center;
-  font-size: 2em;
-  margin: 0 0 1em;
-  clear: left;
-}
-
-.principal p {
-  margin: 0 0 1em;
-}
-
-.principal strong {
-  font-weight: bold;
-}
-
-.principal em {
-  font-style: italic;
-}
-
-.utensilios {
-  width: 120px;
-  float: left;
-  margin: 0 20px 20px 0;
-}
-
-.imagembeneficios {
-  width: 60%;
+/* NAO INCLUI O QUE ESTA ENTRE () */
+/* .about p:not(#mission) {
+  background: purple;
 } */
