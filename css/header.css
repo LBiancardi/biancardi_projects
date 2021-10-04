@@ -13,7 +13,7 @@ header {
 }
 
 header img {
-  width: 12%;
+  width: 100px;
   height: auto;
 }
 
@@ -49,4 +49,28 @@ nav a:hover {
 /* BODY */
 body {
   font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  .box {
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .box nav {
+    position: static;
+    text-align:center;
+    margin: 10px 0;
+  }
+
+  .box nav a {
+    font-size: 16px;
+  }
+
+  ul {
+    padding: 15px 0;
+  }
 }
