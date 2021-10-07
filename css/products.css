@@ -1,3 +1,7 @@
+a {
+  color: black;
+}
+
 .products {
   width: 940px;
   margin: 0 auto;
@@ -48,7 +52,7 @@
 /* MOBILE RESPONSIVE */
 
 @media screen and (max-width: 480px) {
-  .products{
+  .products {
     width: auto;
     padding: 5%;
   }
