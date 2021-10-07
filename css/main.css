@@ -70,9 +70,40 @@ main strong {
   padding: 3em 0;
 }
 
+.map iframe {
+  width: 60%;
+}
+
 .map p {
   text-align: center;
   margin-bottom: 2em;
+}
+
+.open-hours {
+  width: 35%;
+  margin-left: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.open-hours h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.open-hours ul li {
+  display: inline-block;
+  padding: 1em 0;
+}
+
+.day-of-week {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.open-hours li:nth-child(2n) {
+  font-size: 14px;
 }
 
 /* PRODUCTS */
@@ -125,7 +156,7 @@ main strong {
 }
 
 .video {
-  width: 25%;
+  width: 40%;
   margin: 3em auto;
 }
 
@@ -139,9 +170,29 @@ main strong {
 
   .brigadeiros-image,
   .products-content,
-  .video {
+  .video,
+  .map iframe,
+  .open-hours {
     width: 99%;
     text-align: center;
+  }
+
+  .baker-utensils {
+    margin-left: 5%;
+  }
+
+  .my-map, .products {
+    padding: 0;
+  }
+
+  .open-hours {
+    padding: 1em 0;
+  }
+
+  .products-list li,
+  .products-content img {
+    padding: 7px 0;
+    box-shadow: none;
   }
 }
 /* .itens:nth-child(2n) {
