@@ -160,6 +160,8 @@ main strong {
   margin: 3em auto;
 }
 
+/* MOBILE RESPONSIVE */
+
 @media screen and (max-width: 480px) {
   .about,
   .map,

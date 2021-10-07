@@ -44,3 +44,18 @@
   font-weight: bold;
   margin-top: 10px;
 }
+
+/* MOBILE RESPONSIVE */
+
+@media screen and (max-width: 480px) {
+  .products{
+    width: auto;
+    padding: 5%;
+  }
+
+  .products li {
+    display: block;
+    width: auto;
+    margin: 10px 0;
+  }
+}

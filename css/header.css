@@ -51,6 +51,8 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/* MOBILE RESPONSIVE */
+
 @media screen and (max-width: 480px) {
   .box {
     width: auto;

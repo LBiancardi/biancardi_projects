@@ -62,7 +62,7 @@ footer img {
   background-color: #3b5999;
 }
 .social-menu ul li:nth-child(2) a:hover {
-  background-color: #25D366;
+  background-color: #25d366;
 }
 .social-menu ul li:nth-child(3) a:hover {
   background-color: #e4405f;
@@ -72,4 +72,28 @@ footer img {
 }
 .social-menu ul li:nth-child(5) a:hover {
   background-color: palevioletred;
+}
+
+@media screen and (max-width: 480px) {
+  .social-menu {
+    width: auto;
+  }
+
+  footer {
+    padding: 20px 2%;
+  }
+
+  .social-menu ul li a {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social-menu ul li .fa {
+    font-size: 22px;
+    line-height: 40px;
+  }
+
+  .copyright {
+    margin-bottom: 60%;
+  }
 }
